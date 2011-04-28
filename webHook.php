@@ -1,6 +1,4 @@
 <?php
-	require_once("../../../core_functions.php");
-
 	//Get the webhook JSON data
 	$json = file_get_contents('php://input');
 	
